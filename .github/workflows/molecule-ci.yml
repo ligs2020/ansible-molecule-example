@@ -36,7 +36,7 @@ jobs:
         #pip3 install ansible molecule[docker] yamllint ansible-lint
       - name: Run Molecule tests.
         run: |
-            molecule init scenario
+            # molecule init scenario
             molecule test                   
         env:
           PY_COLORS: '1'
