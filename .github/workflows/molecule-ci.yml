@@ -32,7 +32,7 @@ jobs:
             pip3 install pytest-testinfra 
             pip3 install ansible 
             pip3 install docker
-            pip3 install molecule[docker]            
+            pip3 install molecule-plugins[docker]            
         #pip3 install ansible molecule[docker] yamllint ansible-lint
       - name: Run Molecule tests.
         run: |
